@@ -124,3 +124,81 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact-header {
+  text-align: center;
+}
+
+/* Contact container styles */
+.contact-container {
+  width: 100%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: rgb(103, 102, 105) 3px solid;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Heading styles */
+.contact-container h1 {
+  color: rgb(97, 64, 128);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+  color: rgb(97, 64, 128);
+}
+
+.contact-form {
+  width: 45%;
+}
+
+.contact-form input, 
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid rgb(103, 102, 105);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+/* Button styles */
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: rgb(97, 64, 128);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: rgb(81, 54, 107);
+}
+
+.contact-image {
+  width: 50%; /* Make it responsive */
+  height: 50%; /* Maintain aspect ratio */
+  border-radius: 10px; /* Add rounded corners */
+  margin-bottom: 20px; /* Add spacing below the image */
+  border: 3px solid rgb(103, 102, 105); /* Match the page style */
+}
+
