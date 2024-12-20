@@ -82,7 +82,8 @@ app.get('/fetchDealers/:state', async (req, res) => {
 app.get('/fetchDealer/:id', async (req, res) => {
 //Write your code here
     try {
-        const document = await Dealerships.findOne({ id: req.params.id });
+        //const document = await Dealerships.findOne({ id: req.params.id });
+        const document = await Dealerships.find({ id: req.params.id });
         if (document) {
             res.json(document);
         } else {
